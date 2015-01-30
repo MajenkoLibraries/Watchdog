@@ -1,0 +1,5 @@
+LICENSE usr/share/doc/libwatchdog-chipkit/
+LICENSE.md usr/share/doc/libwatchdog-chipkit/
+README.md usr/share/doc/libwatchdog-chipkit/
+Watchdog.cpp libraries/Time/chipkit/Watchdog/
+Watchdog.h libraries/Time/chipkit/Watchdog/
