@@ -9,6 +9,7 @@ Standards-Version: 3.9.4
 
 Package: libwatchdog-chipkit
 Architecture: all
+Provides: Watchdog.h
 Depends: chipkit
 Description: Watchdog library for chipkit
 
