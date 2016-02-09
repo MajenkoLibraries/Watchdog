@@ -3,6 +3,7 @@ Section: libraries
 Priority: extra
 XBSC-Group: Time
 XBSC-Family: pic32
+XBSC-Subgroup: Timers
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
