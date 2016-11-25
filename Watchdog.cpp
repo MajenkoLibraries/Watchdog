@@ -1,15 +1,19 @@
 #include <Watchdog.h>
 
 void Watchdog::enable() {
-	WDTCONSET = 1<<15; // Turn on
+	WDTCONbits.ON = 1;
 }
 
 void Watchdog::disable() {
-	WDTCONCLR = 1<<15; // Turn off
+	WDTCONbits.ON = 0;
 }
 
 void Watchdog::kick() {
-	WDTCONSET = 0x01; // Kick the dog!
+#ifdef __PIC32MZ__
+    WDTCONbits.WDTCLRKEY = 0x5743;
+#else
+	WDTCONbits.WDTCLR = 1;
+#endif
 }
 
 void Watchdog::enableSleepMode() {
