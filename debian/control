@@ -1,9 +1,10 @@
 Source: libwatchdog-chipkit
-Section: libraries
+Section: main
 Priority: extra
-XBSC-Group: Time
+XBSC-Group: Libraries
+XBSC-SubGroup: Time
 XBSC-Family: pic32
-XBSC-Subgroup: Timers
+XBSC-SubSubgroup: Timers
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
