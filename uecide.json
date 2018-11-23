@@ -1,0 +1,18 @@
+{
+    "name": "Watchdog",
+    "provides": "Watchdog.h",
+    "license": "LICENSE.md",
+    "readme": "README.md",
+    "description": "chipKIT Watchdog control",
+    "category": "System",
+    "subcategory": "Watchdog",
+    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
+    "version": "1.0.8",
+    "family": "pic32",
+    "core": "chipkit",
+    "install": {
+        "examples": "/",
+        "Watchdog.cpp": "/",
+        "Watchdog.h": "/"
+    }
+}
